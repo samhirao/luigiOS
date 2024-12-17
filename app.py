@@ -4,7 +4,7 @@ import openai
 app = Flask(__name__)
 
 # Set your OpenAI API key here
-openai.api_key = os.getenv("OPENAI_API_KEY")  # This retrieves the key from Heroku's environment
+openai.api_key = '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'  # Make sure to update this with your actual OpenAI API key
 
 # Define the custom prompt directly in the app (no need to load it from a file)
 custom_prompt = """
